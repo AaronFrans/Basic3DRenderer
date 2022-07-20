@@ -13,6 +13,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="Game Files\Basic Object">
+      <UniqueIdentifier>{b1ac5e8d-d434-4dab-85fa-57ad5d45f62d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -39,17 +42,17 @@
     <ClCompile Include="Game.cpp">
       <Filter>Game Files</Filter>
     </ClCompile>
-    <ClCompile Include="Vector3d.cpp">
-      <Filter>Game Files</Filter>
+    <ClCompile Include="Matrix4x43d.cpp">
+      <Filter>Game Files\Basic Object</Filter>
     </ClCompile>
     <ClCompile Include="Triangle3d.cpp">
-      <Filter>Game Files</Filter>
+      <Filter>Game Files\Basic Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3d.cpp">
+      <Filter>Game Files\Basic Object</Filter>
     </ClCompile>
     <ClCompile Include="Mesh3d.cpp">
-      <Filter>Game Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Matrix4x43d.cpp">
-      <Filter>Game Files</Filter>
+      <Filter>Game Files\Basic Object</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -74,17 +77,17 @@
     <ClInclude Include="Game.h">
       <Filter>Game Files</Filter>
     </ClInclude>
-    <ClInclude Include="Vector3d.h">
-      <Filter>Game Files</Filter>
+    <ClInclude Include="Matrix4x43d.h">
+      <Filter>Game Files\Basic Object</Filter>
     </ClInclude>
     <ClInclude Include="Triangle3d.h">
-      <Filter>Game Files</Filter>
+      <Filter>Game Files\Basic Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3d.h">
+      <Filter>Game Files\Basic Object</Filter>
     </ClInclude>
     <ClInclude Include="Mesh3d.h">
-      <Filter>Game Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Matrix4x43d.h">
-      <Filter>Game Files</Filter>
+      <Filter>Game Files\Basic Object</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -34,6 +34,8 @@ private:
 	Matrix4x43d m_RotX;
 	Matrix4x43d m_RotZ;
 
+	Vector3d m_Camera;
+
 	// FUNCTIONS
 	void Initialize( );
 	void Cleanup( );
@@ -50,8 +52,10 @@ private:
 	
 	
 	//Drawing
-	void DrawLine(float x1, float y1, float x2, float y2) const;
+	void DrawLine(float x1, float y1, float x2, float y2, Color4f color = Color4f{ 1, 1, 1, 1 }) const;
 	void DrawTriangle(float x1, float y1, float x2,
-		float y2, float x3, float y3) const;
+		float y2, float x3, float y3, Color4f color = Color4f{1, 1, 1, 1}) const;
+	void FillTriangle(float x1, float y1, float x2,
+		float y2, float x3, float y3, Color4f color = Color4f{ 1, 1, 1, 1 }) const;
 
 };
